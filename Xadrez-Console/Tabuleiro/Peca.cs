@@ -14,5 +14,11 @@
             this.qteMovimentos = 0;
             this.tab = tab;
         }
+
+        public void incrementarQteMovimentos()
+        {
+            qteMovimentos++;
+        }
+
     }
 }
